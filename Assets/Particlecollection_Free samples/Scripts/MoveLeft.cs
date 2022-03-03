@@ -6,7 +6,7 @@ public class MoveLeft : MonoBehaviour
 {
     public float speed = 20; // created a variable called speed
     private PlayerController playerControllerScript; // called player controller script
-    private float leftBound = -15; // set boundry limit
+    private float leftBound = -10; // set boundry limit
 
     // Start is called before the first frame update
     void Start()
