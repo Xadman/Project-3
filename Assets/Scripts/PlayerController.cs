@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over");
             gameOver = true;
             playerAnim.SetBool("Death_b", true);
-            playerAnim.SetInteger("Death_int", 1);
+            playerAnim.SetInteger("DeathType_int", 1);
         }
     }
 }
